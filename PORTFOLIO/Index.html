@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aashi Garg | Creative Frontend Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Aashi Garg, an enthusiastic Frontend Developer specializing in HTML, CSS, JavaScript, MERN stack, and modern interactive web design. Check out my projects and skills.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Ambient background blobs -->
+  <div class="ambient-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        Aashi<span>.G</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active" id="link-hero">Home</a></li>
+        <li><a href="#about" class="nav-link" id="link-about">About</a></li>
+        <li><a href="#skills" class="nav-link" id="link-skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
+        <li><a href="#timeline" class="nav-link" id="link-timeline">Education</a></li>
+        <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+      </ul>
+      <button class="contact-btn-nav" id="nav-contact-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get In Touch</button>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-bolt"></i> Available for Opportunities
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <br><span>Aashi Garg</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            I build <span id="typed-text"></span>
+          </h2>
+          <p class="hero-desc">
+            A detail-oriented and highly motivated Frontend Developer. I transform complex design mockups into premium, responsive, and user-friendly web applications using the MERN stack.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary" id="hero-btn-work">
+              View Work <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn-secondary" id="hero-btn-contact">
+              Let's Talk
+            </a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:gargaashi9876@gmail.com" class="social-icon" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-avatar-wrapper">
+            <img src="./assests/aashi professional pic.jpeg " alt="Aashi Garg Profile Avatar" class="hero-avatar"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Introduction</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-info">
+            <h3>Frontend Developer & BCA Student</h3>
+            <p>
+              I am currently pursuing my Bachelor of Computer Applications (BCA) at GNIOT Group of Institutions. My focus is on combining robust technical development skills with clean, responsive user interfaces that enhance operations.
+            </p>
+            <p>
+              I specialize in frontend technologies like HTML5, CSS3, JavaScript, and Tailwind CSS. I also have hands-on experience in backend and database environments such as Node.js, Express, MySQL, and MongoDB.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">7.8</span>
+                <span class="stat-label">BCA CGPA</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">81%</span>
+                <span class="stat-label">Class XII & X Score</span>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card about-details-card">
+            <div class="about-row">
+              <div class="about-row-label">Full Name</div>
+              <div class="about-row-value">Aashi Garg</div>
+            </div>
+            <div class="about-row">
+              <div class="about-row-label">Location</div>
+              <div class="about-row-value">Agra, Uttar Pradesh 282004</div>
+            </div>
+            <div class="about-row">
+              <div class="about-row-label">College</div>
+              <div class="about-row-value">GNIOT Institution of Technology And Management</div>
+            </div>
+            <div class="about-row">
+              <div class="about-row-label">Degree</div>
+              <div class="about-row-value">Bachelor of Computer Applications (BCA)</div>
+            </div>
+            <div class="about-row">
+              <div class="about-row-label">Phone</div>
+              <div class="about-row-value">+91 9758145400</div>
+            </div>
+            <div class="about-row">
+              <div class="about-row-label">Email</div>
+              <div class="about-row-value">gargaashi9876@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">My Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <!-- Frontend skills -->
+          <div class="glass-card skill-category">
+            <h3><i class="fa-solid fa-code"></i> Frontend Tech</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5 / CSS3</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript (ES6+)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Tailwind CSS</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Responsive Design</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="95%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend & Database -->
+          <div class="glass-card skill-category">
+            <h3><i class="fa-solid fa-server"></i> Backend & Database</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Node.js / Express.js</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MongoDB</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Professional -->
+          <div class="glass-card skill-category">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Control & Workflow</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Git & GitHub</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">VS Code / DevTools</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill" data-percentage="90%"></div>
+                </div>
+              </div>
+            </div>
+            <h4 style="margin: 1.5rem 0 0.8rem 0; color: var(--text-main); font-size: 1rem;">Core Competencies</h4>
+            <div class="skills-tags">
+              <span class="skill-tag">Client Communication</span>
+              <span class="skill-tag">Requirements Gathering</span>
+              <span class="skill-tag">Project Control</span>
+              <span class="skill-tag">Scope Management</span>
+              <span class="skill-tag">Teamwork</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects reveal" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: Library Management -->
+          <div class="glass-card project-card" id="project-library">
+            <div class="project-header">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-book-bookmark"></i>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="project-link" aria-label="Live Demo Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Online Library Management System</h3>
+            <p class="project-desc">
+              Developed a fully responsive web application using the MERN Stack. Features secure user authentication protocols and an intuitive administrative dashboard.
+            </p>
+            <div class="project-metrics">
+              <i class="fa-solid fa-chart-line"></i> Optimized client workflows reducing manual work by 40%.
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">MERN Stack</span>
+              <span class="project-tag">Auth</span>
+            </div>
+            <div class="project-card-footer">
+              <button class="project-btn-more" onclick="openProjectModal('library')">
+                View Project Details <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2: Calculator -->
+          <div class="glass-card project-card" id="project-calculator">
+            <div class="project-header">
+              <div class="project-icon-box">
+                <i class="fa-solid fa-calculator"></i>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Simple Desktop Calculator</h3>
+            <p class="project-desc">
+              Engineered a highly functional desktop GUI application integrating advanced arithmetic functions and state memory capabilities.
+            </p>
+            <div class="project-metrics">
+              <i class="fa-solid fa-shield-halved"></i> Engineered object-oriented crash-free exception handling.
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Tkinter (GUI)</span>
+              <span class="project-tag">OOP</span>
+              <span class="project-tag">Desktop App</span>
+            </div>
+            <div class="project-card-footer">
+              <button class="project-btn-more" onclick="openProjectModal('calculator')">
+                View Project Details <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline & Education Section -->
+    <section class="timeline-section-wrapper reveal" id="timeline">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Milestones</span>
+          <h2 class="section-title">Education & Certifications</h2>
+        </div>
+        <div class="timeline-section">
+          <!-- Education Column -->
+          <div class="timeline-column">
+            <h3><i class="fa-solid fa-graduation-cap"></i> Academic Profile</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Expected 01/2027</span>
+                  <h4 class="timeline-title">Bachelor of Computer Applications (BCA)</h4>
+                  <span class="timeline-sub">GNIOT Institution of Technology And Management, Greater Noida</span>
+                  <p class="timeline-desc">Fostering deep knowledge of data structures, web technologies, and computational concepts. Cumulative CGPA: 7.8/10 (78%).</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Completed 01/2024</span>
+                  <h4 class="timeline-title">Higher Secondary (Class XII)</h4>
+                  <span class="timeline-sub">GRNSVM, Balkeshwar — Agra</span>
+                  <p class="timeline-desc">Secured academic score of 81% with focus on science and logic foundations.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Completed 01/2022</span>
+                  <h4 class="timeline-title">Secondary (Class X)</h4>
+                  <span class="timeline-sub">GRNSVM, Balkeshwar — Agra</span>
+                  <p class="timeline-desc">Secured academic score of 81% under rigorous primary sciences and math curriculum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="timeline-column">
+            <h3><i class="fa-solid fa-award"></i> Professional Certifications</h3>
+            <div class="certs-grid">
+              <div class="glass-card cert-card">
+                <div class="cert-icon">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="cert-info">
+                  <h4>Web Development (MERN)</h4>
+                  <p>Infosys</p>
+                </div>
+              </div>
+              <div class="glass-card cert-card">
+                <div class="cert-icon">
+                  <i class="fa-solid fa-brain"></i>
+                </div>
+                <div class="cert-info">
+                  <h4>Generative AI Mastermind</h4>
+                  <p>Outskill</p>
+                </div>
+              </div>
+              <div class="glass-card cert-card">
+                <div class="cert-icon">
+                  <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="cert-info">
+                  <h4>Python for Data Science</h4>
+                  <p>NPTEL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in touch</span>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="contact-grid">
+          <!-- Info Details -->
+          <div class="contact-info-panel">
+            <div class="glass-card contact-card-simple">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>gargaashi9876@gmail.com</p>
+              </div>
+            </div>
+            <div class="glass-card contact-card-simple">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+91 9758145400</p>
+              </div>
+            </div>
+            <div class="glass-card contact-card-simple">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Agra, Uttar Pradesh 282004</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Details -->
+          <div class="glass-card">
+            <form class="contact-form-card" id="contact-form">
+              <div class="form-status" id="form-status"></div>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" class="form-input" placeholder="john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-textarea" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="form-submit-btn" id="form-submit-btn">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Details Modal -->
+  <div class="modal-overlay" id="project-modal" onclick="closeProjectModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-close" onclick="closeProjectModal()"><i class="fa-solid fa-xmark"></i></div>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Content will be injected dynamic by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-logo">Aashi<span>.G</span></div>
+      <div class="footer-copy">&copy; 2026 Aashi Garg. All rights reserved.</div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="social-icon" style="width: 36px; height: 36px; font-size: 1rem;"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-icon" style="width: 36px; height: 36px; font-size: 1rem;"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:gargaashi9876@gmail.com" class="social-icon" style="width: 36px; height: 36px; font-size: 1rem;"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
